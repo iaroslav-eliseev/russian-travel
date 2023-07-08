@@ -1,0 +1,16 @@
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+
+}
+
+@media (max-width: 768px) {
+  .footer__links {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 32px;
+  }
+}

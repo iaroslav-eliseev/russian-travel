@@ -1,0 +1,16 @@
+.cover__overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(42, 44, 47, 0.3);
+  transition: background .2s ease-out;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: background .2s ease-out;
+}
