@@ -1,6 +1,6 @@
 .header__lang-links {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: last baseline;
   gap: 18px;
 }

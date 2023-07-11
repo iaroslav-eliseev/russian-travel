@@ -1,12 +1,12 @@
 .header__lang-link {
+  font-family: 'Inter Regular';
+  max-width: 29px;
+  transition: opacity 0.5s;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  width: 29px;
-  height: 28px;
-  text-decoration: none;
   color: #fff;
-  transition: opacity 0.5s;
+  margin-bottom: 4px;
 }
 
 .header__lang-link:hover {
@@ -14,10 +14,9 @@
   opacity: 0.8;
 }
 
-.header__lang-link:first-child {
-  border-bottom: solid 2px #fff;
-}
-
-.header__lang-link:last-child {
-  border-bottom: solid 2px #2a2c2f;
+@media (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

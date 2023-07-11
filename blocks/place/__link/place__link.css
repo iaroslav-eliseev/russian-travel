@@ -1,4 +1,8 @@
 .place__link {
+  font-family: 'Inter Regular';
+  text-decoration: none;
+  border-bottom: solid #fff 1px;
+  margin: 0 auto 0 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;

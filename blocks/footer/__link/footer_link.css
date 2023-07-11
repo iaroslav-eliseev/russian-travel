@@ -1,4 +1,5 @@
 .footer__link {
+  font-family: 'Inter Regular';
   text-decoration: none;
   color: #fff;
   font-weight: 400;
@@ -12,7 +13,7 @@
   transition: opacity 0.5s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;

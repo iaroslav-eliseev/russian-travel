@@ -6,26 +6,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 533px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .footer {
     max-width: 928px;
+    gap: 277px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .footer {
     max-width: 720px;
+    gap: 69px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer {
-    width: 186px;
-    height: 310px;
-    margin: 0 auto 0 16px;
+    max-width: 288px;
+    margin: 0 auto;
     flex-direction: column;
     align-items: start;
+    gap: 48px;
   }
 }

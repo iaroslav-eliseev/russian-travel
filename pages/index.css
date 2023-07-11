@@ -1,3 +1,5 @@
+@import url(../vendor/fonts.css);
+
 @import url(../vendor/normalize.css);
 
 /* страница */
@@ -5,9 +7,11 @@
 
 /* блок Header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header-logo.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_languages/header__lang-link_languages_ru.css);
+@import url(../blocks/header/__lang-link/_languages/header__lang-link_languages_en.css);
 
 /* блок Lead */
 @import url(../blocks/lead/lead.css);
@@ -21,6 +25,8 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__point/intro__point.css);
+@import url(../blocks/intro/__quantity/intro__quantity.css);
 
 /* блок Photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -35,6 +41,7 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 
 /* блок Cover */
 @import url(../blocks/cover/cover.css);
@@ -48,5 +55,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer_link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
