@@ -1,6 +1,7 @@
-@import url(../vendor/fonts.css);
-
 @import url(../vendor/normalize.css);
+
+/* шрифты */
+@import url(../vendor/fonts.css);
 
 /* страница */
 @import url(../blocks/page/page.css);
@@ -10,8 +11,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_languages/header__lang-link_languages_ru.css);
-@import url(../blocks/header/__lang-link/_languages/header__lang-link_languages_en.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 /* блок Lead */
 @import url(../blocks/lead/lead.css);
